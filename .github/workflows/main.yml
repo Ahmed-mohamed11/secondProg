@@ -8,13 +8,10 @@ on:
 
 
 
-
-
-
 jobs:
   build:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-      - name: 'Printing folder'
+      - name: "Printing folders"
         run: ls
